@@ -1,1 +1,52 @@
 /* TODO: Make it awesome */
+
+header h1 {
+  font-size: 50px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-left: 40%;
+
+}
+
+nav {
+  background-color: #04B7B7;
+  height: 50%;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
+nav ul li {
+  color: whitesmoke;
+  display: inline-block;
+  margin-left: 30%;
+}
+
+ol li {
+  margin-left: 20%;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+form{
+margin-left: 35%;
+margin-top: 5%;
+}
+
+legend{
+  margin-bottom: 5%;
+}
+
+tr th {
+  margin-left: 20%;
+}
+
+footer p {
+
+  margin-top: 15%;
+  margin-left: 45%;
+
+}

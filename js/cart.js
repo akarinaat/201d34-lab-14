@@ -1,13 +1,13 @@
 'use strict';
 
-var Cart = [];
+var x = [];
 
 // Create an event listener so that when the delete link is clicked, the removeItemFromCart method is invoked.
 var table = document.getElementById('cart');
 table.addEventListener('click', removeItemFromCart);
 
 function loadCart() {
-  Cart = JSON.parse(localStorage.getItem('cart')) || [];
+  // Cart = JSON.parse(localStorage.getItem('cart')) || [];
 }
 
 // Make magic happen --- re-pull the Cart, clear out the screen and re-draw it
